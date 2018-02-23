@@ -1,0 +1,10 @@
+.table-fixed-item{
+    td, th{
+        // border-right: solid 1px #efefef;
+        vertical-align: middle!important;
+        text-align: center;
+    }
+    table{
+        margin-bottom: 0px;
+    }
+}

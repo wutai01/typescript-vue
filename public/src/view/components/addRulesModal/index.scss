@@ -1,0 +1,46 @@
+.add-rules-modal-title{
+    height: 40px;
+    line-height: 40px;
+    margin: -15px -15px 0px -15px;
+    padding: 0px 15px;
+    border-bottom: solid 1px #f4f4f4;
+    margin-bottom: 10px;
+}
+.add-rules-modal-main{
+    height: auto;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #f4f4f4;
+    margin-bottom: 10px;
+}
+.add-rules-game-item{
+    margin-bottom: 15px;
+    background: #f2f2f2;
+    padding-bottom: 15px;
+    .add-rules-game-item-select{
+        select{
+            border-radius:4px;
+            height:30px;
+            line-height:30px;
+            padding:0px 12px;
+        }
+    }
+    .add-rules-game-item-close{
+        height:30px;
+        line-height:30px;
+        font-size:26px;
+        padding-left:10px;
+        cursor: pointer;
+        color:#aeaeae;
+    }
+    .add-rules-game-item-input{
+        input{
+            background:#fff;
+            width:100%;
+            border-radius:4px;
+            height:30px;
+            line-height:30px;
+            padding:0px 12px;
+            border:1px solid #d2d6de;
+        }
+    }
+}

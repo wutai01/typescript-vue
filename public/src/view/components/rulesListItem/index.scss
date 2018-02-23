@@ -1,0 +1,45 @@
+.rules-list-item{
+    border: solid 1px #f2f2f2;
+    padding-bottom: 20px;
+    .rules-list-item-head{
+        height: 45px;
+        line-height: 45px;
+        padding: 0px 20px;
+        background: #f2f2f2;
+        .department,.games{
+            color: #d8c8bc;
+        }
+        .department-text{
+            padding-right: 100px;
+        }
+    }
+    .rules-list-item-games{
+        margin-top: 20px;
+        padding-left: 20px;
+        span{
+            padding: 5px 10px;
+            border: solid 1px #797979;
+            margin-right: 15px;
+            border-radius: 5px;
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+    .rules-list-item-main{
+        padding:20px 20px 0px 20px;
+        span{
+            height: 35px;
+            line-height: 35px;
+            width: 33%;
+            display: inline-block;
+        }
+    }
+    .rules-list-item-add{
+        margin-top: 10px;
+        
+    }
+    .active-games{
+        border-color: #2b99fc!important;
+        color: #2b99fc!important;
+    }
+}

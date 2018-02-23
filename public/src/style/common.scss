@@ -1,0 +1,27 @@
+/* 项目基础样式 */
+.content-wrapper {
+  padding-top: 50px;
+  height: 100%;
+  font-size: 14px;
+}
+.v-content {
+  min-height: calc(100vh - 150px);
+}
+.fa-my-success{
+  margin-left: 5px;
+  color: #00a65a;
+  font-size: 18px;
+}
+.fa-my-error{
+  margin-left: 5px;
+  color: #dd4b39;
+  font-size: 18px;
+}
+.fa-my-warning{
+  margin-left: 5px;
+  color: #f39c12;
+  font-size: 18px;
+}
+.curP{
+  cursor: pointer;
+}

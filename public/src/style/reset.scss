@@ -1,0 +1,18 @@
+html, body {
+  background: #ecf0f5;
+  font-size: 12px;
+  font-family: PingFang SC, Hiragino Sans GB, Helvetica Neue, Microsoft Yahei, WenQuanYi Micro Hei, sans-serif;
+}
+.skin-green .wrapper, .skin-green .main-sidebar, .skin-green .left-side {
+  background: #ecf0f5;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+input, button, area {
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent;
+}

@@ -1,0 +1,8 @@
+/* transition过渡 */
+.transition-slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.transition-slide-fade-enter{
+  transform: translateX(10px);
+  opacity: 0;
+}
